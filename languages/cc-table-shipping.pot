@@ -1,0 +1,313 @@
+# Copyright (C) 2018 WC Table Shipping
+# This file is distributed under the same license as the WC Table Shipping package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Table Shipping 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-table-"
+"shipping\n"
+"POT-Creation-Date: 2018-02-22 14:12-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: includes/admin/views/html-meta-box-file-columns-mapping.php:20
+#: includes/admin/views/html-meta-box-file-file-upload.php:31
+msgid "File Name"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-columns-mapping.php:24
+#: includes/admin/views/html-meta-box-file-file-upload.php:35
+msgid "Size"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-columns-mapping.php:38
+msgid "Map your table columns"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-columns-mapping.php:39
+msgid "Select the columns to match with your file."
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-columns-mapping.php:50
+msgid "Invalid file. Delete this post and try again."
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:16
+msgid "Looking for an Example Table?"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:16
+msgid "Download here"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:17
+msgid "If you have a XLS file, you can convert it"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:17
+msgid "here"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:19
+msgid "No file selected"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:19
+msgid "Select file"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:43
+msgid "Invalid file. It must be"
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:47
+msgid "Publish this settings to map your columns."
+msgstr ""
+
+#: includes/admin/views/html-meta-box-file-file-upload.php:47
+msgid "To cancel, clique here."
+msgstr ""
+
+#: includes/admin/views/meta-box-file.php:18
+msgid ""
+"It's not possible to edit an existing table. If you want to modify this, "
+"delete the and post and upload again."
+msgstr ""
+
+#: includes/admin/views/meta-box-settings.php:23
+#: includes/admin/views/shipping-table.php:26
+msgid "Shipping title"
+msgstr ""
+
+#: includes/admin/views/meta-box-settings.php:29
+msgid "e.g. Correios"
+msgstr ""
+
+#: includes/admin/views/meta-box-settings.php:36
+msgid "Additional Days"
+msgstr ""
+
+#: includes/admin/views/meta-box-settings.php:42
+msgid "e.g. 1"
+msgstr ""
+
+#: includes/admin/views/meta-box-settings.php:46
+msgid "Additional days to the estimated delivery."
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:18
+msgid "Free shipping rates"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:25
+msgid "Title"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:27
+msgid "Condition groups"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:41
+msgid "%s registered rows"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:41
+msgid "We are not able to read your file"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:47
+#: includes/admin/views/shipping-table.php:54
+msgid "Edit Method"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:55
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:60
+msgid "Delete Method"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:61
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:66
+msgid "Your Custom Table"
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:74
+msgid "There are no Table Shipping rates. Yet..."
+msgstr ""
+
+#: includes/admin/views/shipping-table.php:82
+msgid "Add WC Table Rate Shipping"
+msgstr ""
+
+#: includes/class-ccts-helper.php:40
+msgid "Any value"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/class-ccts-method.php:18 includes/class-ccts-method.php:19
+#: includes/class-ccts-post-type.php:55
+msgid "WC Table Shipping"
+msgstr ""
+
+#: includes/class-ccts-method.php:20
+msgid "Configure WC Table Shipping"
+msgstr ""
+
+#: includes/class-ccts-method.php:57
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-ccts-method.php:59
+msgid "Enable the WC Table Shipping"
+msgstr ""
+
+#: includes/class-ccts-method.php:63
+msgid "Always visible"
+msgstr ""
+
+#: includes/class-ccts-method.php:65
+msgid "Enable custom methods even if there is other methods avaialable"
+msgstr ""
+
+#: includes/class-ccts-method.php:69
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-ccts-method.php:71
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:56
+msgid "WC Table Shipping Rate"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:57
+msgid "Add New"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:58
+msgid "Add New WC Table Shipping rate"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:59
+msgid "Edit WC Table Shipping rate"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:60
+msgid "New WC Table Shipping rate"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:61
+msgid "View WC Table Shipping rate"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:62
+msgid "Search WC Table Shipping rates"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:63
+msgid "No WC Table Shipping rates"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:64
+msgid "No WC Table Shipping rates found in Trash"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:102 includes/class-ccts-post-type.php:105
+msgid "WC Table Shipping rate updated."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:103
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:104
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:106
+msgid "WC Table Shipping rate published."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:107
+msgid "WC Table Shipping rate saved."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:108
+msgid "WC Table Shipping rate submitted."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:110
+msgid "WC Table Shipping method scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:111
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:113
+msgid "WC Table shipping rate draft updated."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:119
+msgid "Return to overview."
+msgstr ""
+
+#: includes/class-ccts-post-type.php:142
+msgid "WC Table Shipping options"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:143
+msgid "Table Shipping settings"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:144
+msgid "Useful links"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:181
+msgid "How to set up this plugin"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:241
+msgid "Choose a table"
+msgstr ""
+
+#: includes/class-ccts-post-type.php:242
+msgid "Select Table"
+msgstr ""
+
+#: includes/core-functions.php:58
+msgid "Free Shipping"
+msgstr ""
+
+#: magic-fw/classes/admin-field-multiselect_products.php:65
+msgid "Select all"
+msgstr ""
+
+#: magic-fw/classes/admin-field-multiselect_products.php:65
+msgid "Select none"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://fernandoacosta.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Calculate shipping offline rates from a CSV file."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Fernando Acosta"
+msgstr ""
