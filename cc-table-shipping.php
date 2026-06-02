@@ -250,6 +250,3 @@ add_action(
 	}
 );
 
-
-// backward compatibility
-class_alias( 'CC_Table_Shipping', 'WC_Table_Shippiing' );

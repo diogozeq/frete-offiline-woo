@@ -11,7 +11,7 @@ class CC_Table_Shipping_Delivery_Time
 
         fa_updates()->add_plugin([
             'setup_url' => admin_url('admin.php?page=wc-settings&tab=shipping'),
-            'name'      => 'WC Tabela de Frete Offline',
+            'name'      => 'Tabela de Frete Offline (Claude Code)',
             'id'        => 'cc-table-shipping',
             'key'       => fa_pro_get_license_key('cc-table-shipping'),
             'slug'      => 'cc-table-shipping',

@@ -1,29 +1,22 @@
 <?php
-/**
- * Conditions table.
- *
- * Display table with all the user configured Table Shipping conditions.
- *
- * @author    Fernando Acosta
- * @package   WC Table Shipping
- * @version   1.0.0
- */
-
-if ( ! defined('ABSPATH')) {
-    exit;
-} // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 ?>
-<div class="ccts_success"><?php _e('Looking for an Example Table?', 'cc-table-shipping'); ?> <a
-            href="https://ajuda.fernandoacosta.net/cc-table-shipping/sample"
-            target="_blank"><?php _e('Entenda aqui', 'cc-table-shipping'); ?></a>.
+<div class="ccts_success">
+    <?php esc_html_e( 'Formato esperado: CSV com colunas CEP Inicial, CEP Final, Peso Inicial, Peso Final, Custo, Prazo de Entrega, Nome do Método.', 'cc-table-shipping' ); ?>
+    <?php printf( '<a href="%s" target="_blank">%s</a>.', 'https://raw.githubusercontent.com/diogozeq/frete-offiline-woo/master/dummy-data/rates-example.csv', esc_html__( 'Baixar exemplo', 'cc-table-shipping' ) ); ?>
 </div>
-<div class="ccts_success ccts_warning"><?php _e('If you have a XLS file, you can convert it', 'cc-table-shipping'); ?>
-    <a href="https://convertio.co/pt/conversor-csv" target="_blank"><?php _e('here', 'cc-table-shipping'); ?></a>.
+<div class="ccts_success ccts_warning">
+    <?php esc_html_e( 'Tem um arquivo XLS/XLSX?', 'cc-table-shipping' ); ?>
+    <a href="https://convertio.co/pt/conversor-csv" target="_blank"><?php esc_html_e( 'Converta para CSV aqui.', 'cc-table-shipping' ); ?></a>
 </div>
 
-<?php echo sprintf('<p class="ccts-upload-wrapper">%1$s<input class="button ccts-file-upload-button ccts-upload-button" type="button" value="%2$s" /></p>',
-    __('No file selected', 'cc-table-shipping'), __('Select file', 'cc-table-shipping')); ?>
+<p class="ccts-upload-wrapper">
+    <?php esc_html_e( 'Nenhum arquivo selecionado', 'cc-table-shipping' ); ?>
+    <input class="button ccts-file-upload-button ccts-upload-button" type="button" value="<?php esc_attr_e( 'Selecionar arquivo', 'cc-table-shipping' ); ?>">
+</p>
 
 <div class="ccts-file-uploader hidden" data-library="all" data-mime_types="" data-uploader="wp">
     <div class="file-wrap">
@@ -55,7 +48,7 @@ if ( ! defined('ABSPATH')) {
             hora de salvar ele tem o tipo <code>.csv</code> mas o formato real é do Excel. Para resolver isso, copie
             todos os seus dados para o Google Drive e exporte como CSV
         </li>
-        <li>Outros motivos: entre em contato para obter assistência: ajuda.fernandoacosta.net</li>
+        <li><?php esc_html_e( 'Outros motivos: verifique se o arquivo não está corrompido e tente exportar novamente do Excel/Google Sheets.', 'cc-table-shipping' ); ?></li>
     </ul>
 </div>
 

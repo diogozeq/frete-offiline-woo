@@ -124,8 +124,8 @@ $delimiter  = $this->delimiter;
                 <tfoot>
                 <tr>
                     <th colspan='2' style='padding-left: 10px;'>
-                        Dúvidas na configuração? Acesse <a
-                                href="https://ajuda.fernandoacosta.net">ajuda.fernandoacosta.net</a>
+                        <?php esc_html_e( 'Tabela de Frete Offline (Claude Code)', 'cc-table-shipping' ); ?>
+                        &mdash; <a href="https://github.com/diogozeq/frete-offiline-woo" target="_blank">github.com/diogozeq/frete-offiline-woo</a>
                     </th>
                 </tr>
                 </tfoot>
