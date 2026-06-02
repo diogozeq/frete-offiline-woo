@@ -55,9 +55,9 @@ class CC_Table_Shipping_Method extends WC_Shipping_Method {
 		$this->init_form_fields();
 
 		$this->id                 = 'cc_table_shipping';
-		$this->method_title       = $this->get_option( 'title', __( 'WC Table Shipping', 'cc-table-shipping' ) );
-		$this->title              = $this->method_title;
-		$this->method_description = __( 'Tabela offline para cálculo de frete', 'cc-table-shipping' );
+		$this->method_title       = __( 'Tabela de Frete Offline (Claude Code)', 'cc-table-shipping' );
+		$this->title              = $this->get_option( 'title', $this->method_title );
+		$this->method_description = __( 'Tabela offline para cálculo de frete — versão Claude Code (sem conflito com o original)', 'cc-table-shipping' );
 
 		$this->supports = [
 			'shipping-zones',
